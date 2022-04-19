@@ -1,0 +1,1 @@
+.searchBox{display:-webkit-box;display:-ms-flexbox;display:flex}.searchBox input{border-radius:5px;width:100%;position:relative;border-color:transparent;color:#555;position:relative}.searchBox input:focus-visible{outline:none}.searchBox button{background:white;position:relative;border-radius:5px;right:2%;border-color:transparent;color:#888}

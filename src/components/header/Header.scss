@@ -1,0 +1,31 @@
+@import '../utilities/variables';
+@import '../../index.scss';
+
+
+.nav-a {
+  position: relative;
+  display:flex;
+  font-size: medium;
+  border: bold;
+  font-family: sans-serif;
+  
+}
+.mainNavbar {
+  background: white;
+  width: 100%;
+  height: 50%;
+  //z-index: 5;
+  
+}
+
+
+
+.nav-b{
+ background-color: $bg-color;
+  position:sticky;
+  top: 0px;
+ z-index: 20px;
+}
+.nav-c {
+background-color: white;
+ }

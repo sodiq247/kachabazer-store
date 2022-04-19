@@ -1,0 +1,56 @@
+@import '../variables';
+
+.sharedPages {
+  background: $gen-color-d;
+  min-height: 100px;
+  padding-top: 3.5rem;
+
+  div {
+    height: 100px;
+    background: $gen-color-d;
+    background: url('../../../assets/fruit-vegetables-rotate\ -copy.png') 1% /
+        120px 110px no-repeat,
+      url('../../../assets/fruit-vegetables-rotate.png') 100% / 120px 110px
+        no-repeat;
+
+    h3 {
+      font-weight: bold;
+      text-transform: capitalize;
+      font-family: $inter-font;
+    }
+
+    @media (min-width: 576px) {
+      height: 120px;
+      background-size: 160px 140px;
+      h3 {
+        font-size: 2rem;
+      }
+    }
+
+    @media (min-width: 768px) {
+      height: 140px;
+      background-size: 200px 170px;
+      h3 {
+        font-size: 2rem;
+      }
+    }
+
+    @media (min-width: 992px) {
+      height: 150px;
+      background-size: 250px 180px;
+
+      h3 {
+        font-size: 2.5rem;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      height: 170px;
+      background-size: 300px 200px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    padding-top: 8.5rem;
+  }
+}
